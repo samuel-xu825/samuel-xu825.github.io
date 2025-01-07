@@ -372,3 +372,36 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+.school-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.5em; /* 调整学校名称和日期与下方内容的间距 */
+}
+
+.school-header strong {
+    margin-right: 1em; /* 增加学校名称和日期之间的间距 */
+}
+
+.date {
+    font-weight: normal;
+    color: #666; /* 可选：让日期颜色稍浅 */
+}
+
+.degree {
+    margin-bottom: 0.5em; /* 调整专业名称与下方内容的间距 */
+}
+
+.entry {
+    margin-bottom: 1.5em; /* 调整每个教育经历之间的间距 */
+}
+
+.highlights {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.highlights li {
+    margin-bottom: 0.3em; /* 调整列表项之间的间距 */
+}
