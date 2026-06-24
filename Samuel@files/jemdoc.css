@@ -230,18 +230,6 @@ h1 {
   color: var(--ink);
 }
 
-.about-copy p,
-.module p,
-.cv-item p,
-.cv-item li,
-.skill-grid p,
-.quiet-card p,
-.pub-venue {
-  text-align: justify;
-  text-justify: inter-word;
-  hyphens: auto;
-}
-
 .modules {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -606,17 +594,6 @@ h1 {
 
   .profile-link {
     justify-content: center;
-  }
-
-  .about-copy p,
-  .module p,
-  .cv-item p,
-  .cv-item li,
-  .skill-grid p,
-  .quiet-card p,
-  .pub-venue {
-    text-align: left;
-    hyphens: none;
   }
 
   .info-list div,
