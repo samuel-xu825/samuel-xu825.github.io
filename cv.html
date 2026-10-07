@@ -26,52 +26,40 @@
         <div>
           <h1 id="cv-title">CV</h1>
         </div>
-        <a class="page-action" href="./resume/Shengan_Xu_CV.pdf">Download PDF</a>
+        <a class="page-action cv-download" href="./resume/Shengan_Xu_CV.pdf">Download PDF</a>
       </div>
 
       <div class="cv-shell">
         <aside class="cv-toc" aria-label="CV sections">
-          <a href="#general">General Info</a>
           <a href="#education">Education</a>
+          <a href="#publications">Publications</a>
           <a href="#research">Research</a>
+          <a href="#experience">Experience</a>
           <a href="#honors">Honors</a>
           <a href="#skills">Skills</a>
         </aside>
 
         <div class="cv-content">
-          <section id="general" class="cv-card">
-            <h2>General Information</h2>
-            <dl class="info-list">
-              <div>
-                <dt>Name</dt>
-                <dd>Sheng-An (Samuel) Xu</dd>
-              </div>
-              <div>
-                <dt><span lang="zh">中文</span></dt>
-                <dd><span lang="zh">徐晟安</span></dd>
-              </div>
-              <div>
-                <dt>Email</dt>
-                <dd><a href="mailto:shengan_xu@berkeley.edu">shengan_xu@berkeley.edu</a></dd>
-              </div>
-              <div>
-                <dt>Current</dt>
-                <dd>PhD student in Industrial Engineering &amp; Operations Research, University of California, Berkeley.</dd>
-              </div>
-            </dl>
-          </section>
+          <header class="cv-intro">
+            <h2>Sheng-An (Samuel) Xu <span lang="zh">徐晟安</span></h2>
+            <p>PhD student in Industrial Engineering &amp; Operations Research at UC Berkeley.</p>
+            <p class="cv-focus">Large-scale optimization · Online learning · Generative models</p>
+            <p class="cv-contact">
+              <a href="mailto:shengan_xu@berkeley.edu">Email</a>
+              <a href="https://scholar.google.com/citations?user=NziLUywAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+              <a href="https://github.com/samuel-xu825" target="_blank" rel="noopener">GitHub</a>
+            </p>
+          </header>
 
           <section id="education" class="cv-card">
             <h2>Education</h2>
 
             <article class="cv-item">
-              <p class="cv-date">2025-now</p>
+              <p class="cv-date">2025-present</p>
               <div>
                 <h3>University of California, Berkeley</h3>
                 <p>PhD student in the <a href="https://ieor.berkeley.edu" target="_blank" rel="noopener">Department of Industrial Engineering &amp; Operations Research</a>.</p>
-                <ul>
-                  <li>Advised by <a href="https://sites.google.com/site/optyingcui/" target="_blank" rel="noopener">Prof. Ying Cui</a>.</li>
-                </ul>
+                <p>M.S. in Industrial Engineering &amp; Operations Research, May 2026. Advised by <a href="https://sites.google.com/site/optyingcui/" target="_blank" rel="noopener">Prof. Ying Cui</a>.</p>
               </div>
             </article>
 
@@ -80,10 +68,7 @@
               <div>
                 <h3>Nanjing University</h3>
                 <p>B.S. in Mathematics and Applied Mathematics.</p>
-                <ul>
-                  <li>GPA: 3.94 / 4.0.</li>
-                  <li>Ranked 1/48 in Major.</li>
-                </ul>
+                <p>GPA: 4.66/5.00; WES evaluation: 3.94/4.00; ranked 1/48 in major.</p>
               </div>
             </article>
 
@@ -107,6 +92,26 @@
             </article>
           </section>
 
+          <section id="publications" class="cv-card">
+            <h2>Publications</h2>
+
+            <article class="cv-item">
+              <p class="cv-date">2026</p>
+              <div>
+                <h3>Beyond Shadow Weights: Quantization-Aware Training as Quantized-Endpoint Descent</h3>
+                <p><strong>Sheng-An Xu</strong>, Hanyang Li, Jianhao Ma, and Ying Cui. Preprint. <a href="https://arxiv.org/abs/2609.21834" target="_blank" rel="noopener">arXiv:2609.21834</a>.</p>
+              </div>
+            </article>
+
+            <article class="cv-item">
+              <p class="cv-date">2025</p>
+              <div>
+                <h3>Generalized Linear Bandits: Almost Optimal Regret with One-Pass Update</h3>
+                <p>Yu-Jie Zhang, <strong>Sheng-An Xu</strong>, Peng Zhao, and Masashi Sugiyama. NeurIPS 2025. <a href="https://arxiv.org/abs/2507.11847" target="_blank" rel="noopener">arXiv:2507.11847</a>.</p>
+              </div>
+            </article>
+          </section>
+
           <section id="research" class="cv-card">
             <h2>Research Experience</h2>
 
@@ -116,8 +121,8 @@
                 <h3>Statistical and Computational Efficiency of Non-Linear Bandits</h3>
                 <p>LAMDA Group, Nanjing University. Advisor: <a href="https://www.pengzhao-ml.com" target="_blank" rel="noopener">Prof. Peng Zhao</a>.</p>
                 <ul>
-                  <li>Studied generalized linear bandits, neural bandits, and one-pass online update methods.</li>
-                  <li>Developed regret analysis for efficient algorithms under nonlinear reward models.</li>
+                  <li>Designed generalized linear bandit algorithms with one-pass online updates and efficient confidence regions based on online mirror descent.</li>
+                  <li>Used mix-loss analysis and self-concordance to sharpen regret bounds.</li>
                 </ul>
               </div>
             </article>
@@ -128,18 +133,23 @@
                 <h3>Optimization Based on Diffusion Models</h3>
                 <p>Nanjing University. Advisor: Prof. Caihua Chen.</p>
                 <ul>
-                  <li>Explored diffusion-based approaches for optimization and sampling problems.</li>
+                  <li>Trained conditional diffusion models on optimization trajectories to generate feasible solutions for parameterized integer programs.</li>
+                  <li>Explored discrete diffusion and heuristic sampling for graph-structured optimization.</li>
                 </ul>
               </div>
             </article>
+          </section>
 
+          <section id="experience" class="cv-card">
+            <h2>Professional Experience</h2>
             <article class="cv-item">
               <p class="cv-date">2024</p>
               <div>
                 <h3>Machine Learning Engineer Intern</h3>
                 <p>Nanjing Huihu Intelligence Technology Co., Ltd.</p>
                 <ul>
-                  <li>Worked on machine-learning systems involving natural language processing and computer vision.</li>
+                  <li>Built a streaming speaker-separation and subtitle pipeline, applying accelerated proximal gradient methods to audio recovery.</li>
+                  <li>Applied optical flow, SlowFast, and YOLOv10 to video analysis, achieving over 80% scenario-classification accuracy.</li>
                 </ul>
               </div>
             </article>
@@ -195,6 +205,10 @@
               <div>
                 <h3>Programming Skills</h3>
                 <p>C++, Python, MATLAB, and R.</p>
+              </div>
+              <div>
+                <h3>Tools</h3>
+                <p>Git, LaTeX, Mathematica, and MySQL.</p>
               </div>
             </div>
           </section>
